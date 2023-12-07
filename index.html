@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havissh's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Hi, I'm Havissh!</h1>
+            <p>Aspiring IT Enthusiast</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Welcome to my portfolio. I'm a student from India with a passion for coding and technology. Exploring new programming languages and working on innovative projects are some of my favorite activities.</p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <p>Explore some of the exciting projects I've worked on. Feel free to click on the links to learn more.</p>
+                <!-- Add your project details here -->
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <div id="contact-form">
+                    <form id="myForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="button" onclick="validateForm()">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            &copy; 2023 Havissh | IT Enthusiast
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
