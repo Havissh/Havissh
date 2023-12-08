@@ -14,6 +14,10 @@ body {
 .pink-bg {
     background-color: #e33e74; /* Dark pink background */
     color: #fde5e5; /* Light pink text */
+    padding: 1em 0;
+}
+nav {
+    text-align: center;
 }
 nav a {
     color: #fde5e5; /* Light pink text for navigation links */
@@ -48,11 +52,49 @@ h2, p {
     color: #e33e74; /* Dark pink text for section headings and paragraphs */
 }
 footer {
-    background-color: #e33e74; /* Dark pink background for the footer */
-    color: #fde5e5; /* Light pink text for the footer */
     text-align: center;
     padding: 1em 0;
 }
 .light-pink {
     color: #ff6b9b; /* Lighter pink text */
+}
+#contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #e33e74;
+    border-radius: 8px;
+    background-color: #fde5e5;
+    box-shadow: 0 0 20px rgba(227, 62, 116, 0.1);
+    animation: fadeIn 1s ease;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e33e74;
+    color: #fde5e5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #ff6b9b;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
