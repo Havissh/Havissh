@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fde5e5; /* Light pink background */
-    color: #e33e74; /* Darker pink text */
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Darker pink text */
     line-height: 1.6;
 }
 .container {
@@ -12,8 +12,8 @@ body {
     margin: 0 auto;
 }
 .pink-bg {
-    background-color: #e33e74; /* Dark pink background */
-    color: #fde5e5; /* Light pink text */
+    background-color: #FFDEAD; /* Navajo White background */
+    color: #36454F; /* Charcoal text */
     padding: 1em 0;
 }
 nav {
@@ -29,7 +29,7 @@ nav a {
     padding: 1em 0.5em;
 }
 nav a:hover {
-    color: #ff6b9b; /* Lighter pink on hover */
+    color: #F3E5AB; /* Vanilla on hover */
 }
 main {
     margin: 20px 0;
